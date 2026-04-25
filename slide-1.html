@@ -144,6 +144,15 @@
             </p>
         </div>
     </div>
+    <script>
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowRight') {
+                window.location.href = 'slide-2.html';
+            } else if (e.key === 'ArrowLeft') {
+                // First slide - do nothing
+            }
+        });
+    </script>
 </body>
 
 </html>
