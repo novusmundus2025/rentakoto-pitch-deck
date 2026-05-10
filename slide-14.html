@@ -1,102 +1,89 @@
 <!DOCTYPE html>
-
-<html data-theme="light" lang="en">
-
+<html lang="en">
 <head>
     <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
 </head>
+<body style="margin:0; padding:0; overflow:hidden; background:#0B0B14;">
+    <div class="slide-container" style="position:relative; width:1280px; height:720px; overflow:hidden; background:#0B0B14;">
+        <!-- Background -->
+        <div data-object="true" data-object-type="shape" style="position:absolute; left:0px; top:0px; width:1280px; height:720px; background:#0B0B14; z-index:1;"></div>
+        <div data-object="true" data-object-type="shape" style="position:absolute; left:0px; top:0px; width:1280px; height:720px; background:#121226; opacity:0.45; z-index:1;"></div>
+        <div data-object="true" data-object-type="shape" style="position:absolute; left:-200px; top:-180px; width:680px; height:680px; background:#EF4444; border-radius:340px; opacity:0.09; z-index:1;"></div>
+        <div data-object="true" data-object-type="shape" style="position:absolute; left:900px; top:380px; width:620px; height:620px; background:#6D28D9; border-radius:310px; opacity:0.12; z-index:1;"></div>
 
-<body style="margin:0; padding:0; overflow:hidden; background:#0B0F1A;">
-    <div class="slide-container"
-        style="position:relative; width:1280px; height:720px; overflow:hidden; font-family:Inter, Arial, sans-serif;">
-        <!-- Background shapes -->
-        <div data-object="true" data-object-type="shape"
-            style="position:absolute; left:0px; top:0px; width:1280px; height:720px; background:#0B0F1A; z-index:1;">
+        <!-- Top label -->
+        <div data-object="true" data-object-type="shape" style="position:absolute; left:80px; top:52px; width:170px; height:40px; background:rgba(239,68,68,0.14); border:1px solid rgba(239,68,68,0.38); border-radius:999px; z-index:1;"></div>
+        <div data-object="true" data-object-type="icon" style="position:absolute; left:96px; top:64px; width:18px; height:18px; color:#FCA5A5; font-size:16px; z-index:10;"><i class="fa-solid fa-circle-question"></i></div>
+        <div data-object="true" data-object-type="textbox" style="position:absolute; left:122px; top:60px; width:130px; height:24px; z-index:10;">
+            <p style="margin:0; font-family:'Inter',sans-serif; font-weight:800; font-size:10px; letter-spacing:1.2px; color:rgba(255,255,255,0.78); text-transform:uppercase; line-height:2.4;">WHY NOW</p>
         </div>
-        <div data-object="true" data-object-type="shape"
-            style="position:absolute; left:0px; top:0px; width:1280px; height:220px; background:#101A33; z-index:1;">
+
+        <!-- Headline -->
+        <div data-object="true" data-object-type="textbox" style="position:absolute; left:80px; top:106px; width:1120px; height:100px; z-index:10;">
+            <p style="margin:0; font-family:'Space Grotesk','Inter',sans-serif; font-weight:700; font-size:52px; line-height:1.05; color:#FFFFFF; letter-spacing:-0.8px;">"Why now?" — here's why waiting is the risk</p>
         </div>
-        <div data-object="true" data-object-type="shape"
-            style="position:absolute; left:64px; top:250px; width:1152px; height:430px; background:#0F162B; border:1px solid #1E2A4A; border-radius:18px; z-index:1;">
+        <div data-object="true" data-object-type="textbox" style="position:absolute; left:80px; top:210px; width:1000px; height:36px; z-index:10;">
+            <p style="margin:0; font-family:'Inter',sans-serif; font-weight:500; font-size:17px; color:rgba(255,255,255,0.72); line-height:1.5;">Five converging forces have created a narrow window. The platform that moves first owns the trust layer permanently.</p>
         </div>
-        <!-- Header -->
-        <div data-object="true" data-object-type="textbox"
-            style="position:absolute; left:64px; top:48px; width:1152px; height:26px; z-index:10;">
-            <p style="margin:0; font-size:14px; letter-spacing:2px; font-weight:700; color:#9FB0D0;">WHY NOW</p>
+
+        <!-- 5 reasons in a 3+2 grid -->
+        <!-- Row 1 -->
+        <!-- Card 1 -->
+        <div data-object="true" data-object-type="shape" style="position:absolute; left:80px; top:262px; width:340px; height:152px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.10); border-radius:18px; z-index:1;"></div>
+        <div data-object="true" data-object-type="icon" style="position:absolute; left:106px; top:284px; width:26px; height:26px; color:#C4B5FD; font-size:22px; z-index:10;"><i class="fa-solid fa-mobile-screen-button"></i></div>
+        <div data-object="true" data-object-type="textbox" style="position:absolute; left:106px; top:322px; width:298px; height:82px; z-index:10;">
+            <p style="margin:0; font-family:'Inter',sans-serif; font-weight:900; font-size:14px; color:#FFFFFF; line-height:1.3;">Mobile-first Philippines is here</p>
+            <p style="margin:6px 0 0 0; font-family:'Inter',sans-serif; font-weight:500; font-size:12.5px; color:rgba(255,255,255,0.72); line-height:1.4;">78M+ smartphone users. 4G/5G penetration accelerating. Renters expect digital-first experiences and won't accept manual coordination.</p>
         </div>
-        <div data-object="true" data-object-type="textbox"
-            style="position:absolute; left:64px; top:78px; width:1152px; height:70px; z-index:10;">
-            <p style="margin:0; font-size:48px; line-height:1.12; font-weight:800; color:#FFFFFF;">Timing signals are
-                converging</p>
+        <!-- Card 2 -->
+        <div data-object="true" data-object-type="shape" style="position:absolute; left:440px; top:262px; width:380px; height:152px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.10); border-radius:18px; z-index:1;"></div>
+        <div data-object="true" data-object-type="icon" style="position:absolute; left:466px; top:284px; width:26px; height:26px; color:#86EFAC; font-size:22px; z-index:10;"><i class="fa-solid fa-city"></i></div>
+        <div data-object="true" data-object-type="textbox" style="position:absolute; left:466px; top:322px; width:338px; height:82px; z-index:10;">
+            <p style="margin:0; font-family:'Inter',sans-serif; font-weight:900; font-size:14px; color:#FFFFFF; line-height:1.3;">Urban migration at record pace</p>
+            <p style="margin:6px 0 0 0; font-family:'Inter',sans-serif; font-weight:500; font-size:12.5px; color:rgba(255,255,255,0.72); line-height:1.4;">2M+ Filipinos relocate for work annually. SEA's urban population grows by 40M+ people per year — all needing rental solutions.</p>
         </div>
-        <div data-object="true" data-object-type="textbox"
-            style="position:absolute; left:64px; top:154px; width:900px; height:60px; z-index:10;">
-            <p style="margin:0; font-size:18px; line-height:1.45; font-weight:500; color:#C9D3EA;">Renters now expect
-                intelligent, trusted, and fast digital experiences — but real estate platforms haven’t caught up.</p>
+        <!-- Card 3 -->
+        <div data-object="true" data-object-type="shape" style="position:absolute; left:840px; top:262px; width:360px; height:152px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.10); border-radius:18px; z-index:1;"></div>
+        <div data-object="true" data-object-type="icon" style="position:absolute; left:866px; top:284px; width:26px; height:26px; color:#93C5FD; font-size:22px; z-index:10;"><i class="fa-solid fa-robot"></i></div>
+        <div data-object="true" data-object-type="textbox" style="position:absolute; left:866px; top:322px; width:318px; height:82px; z-index:10;">
+            <p style="margin:0; font-family:'Inter',sans-serif; font-weight:900; font-size:14px; color:#FFFFFF; line-height:1.3;">AI is finally affordable at scale</p>
+            <p style="margin:6px 0 0 0; font-family:'Inter',sans-serif; font-weight:500; font-size:12.5px; color:rgba(255,255,255,0.72); line-height:1.4;">LLM APIs and geospatial AI costs have dropped 90% in 3 years. What required $10M to build in 2021 can now launch in months for a fraction.</p>
         </div>
-        <!-- Cards row -->
-        <div data-object="true" data-object-type="shape"
-            style="position:absolute; left:96px; top:286px; width:352px; height:270px; background:#0B1224; border:1px solid #1D2A4A; border-radius:16px; z-index:1;">
+
+        <!-- Row 2 -->
+        <!-- Card 4 -->
+        <div data-object="true" data-object-type="shape" style="position:absolute; left:80px; top:430px; width:540px; height:152px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.10); border-radius:18px; z-index:1;"></div>
+        <div data-object="true" data-object-type="icon" style="position:absolute; left:106px; top:452px; width:26px; height:26px; color:#FDE68A; font-size:22px; z-index:10;"><i class="fa-solid fa-chart-line"></i></div>
+        <div data-object="true" data-object-type="textbox" style="position:absolute; left:106px; top:490px; width:498px; height:82px; z-index:10;">
+            <p style="margin:0; font-family:'Inter',sans-serif; font-weight:900; font-size:14px; color:#FFFFFF; line-height:1.3;">Existing platforms are stagnant and trust-deficient</p>
+            <p style="margin:6px 0 0 0; font-family:'Inter',sans-serif; font-weight:500; font-size:12.5px; color:rgba(255,255,255,0.72); line-height:1.4;">The dominant players haven't innovated in years. Scam listings, zero safety data, and no flow completion — a trust vacuum waiting to be filled by the right product.</p>
         </div>
-        <div data-object="true" data-object-type="shape"
-            style="position:absolute; left:464px; top:286px; width:352px; height:270px; background:#0B1224; border:1px solid #1D2A4A; border-radius:16px; z-index:1;">
+        <!-- Card 5 -->
+        <div data-object="true" data-object-type="shape" style="position:absolute; left:640px; top:430px; width:560px; height:152px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.10); border-radius:18px; z-index:1;"></div>
+        <div data-object="true" data-object-type="icon" style="position:absolute; left:666px; top:452px; width:26px; height:26px; color:#F87171; font-size:22px; z-index:10;"><i class="fa-solid fa-hourglass-end"></i></div>
+        <div data-object="true" data-object-type="textbox" style="position:absolute; left:666px; top:490px; width:518px; height:82px; z-index:10;">
+            <p style="margin:0; font-family:'Inter',sans-serif; font-weight:900; font-size:14px; color:#FFFFFF; line-height:1.3;">The trust-data moat closes fast</p>
+            <p style="margin:6px 0 0 0; font-family:'Inter',sans-serif; font-weight:500; font-size:12.5px; color:rgba(255,255,255,0.72); line-height:1.4;">Safety intelligence, verified landlord profiles, and behavioral data are network effects — the first platform to accumulate them at scale becomes the default for an entire generation of renters.</p>
         </div>
-        <div data-object="true" data-object-type="shape"
-            style="position:absolute; left:832px; top:286px; width:352px; height:270px; background:#0B1224; border:1px solid #1D2A4A; border-radius:16px; z-index:1;">
+
+        <!-- Bottom callout -->
+        <div data-object="true" data-object-type="shape" style="position:absolute; left:80px; top:598px; width:1120px; height:68px; background:rgba(239,68,68,0.10); border:1px solid rgba(239,68,68,0.30); border-radius:18px; z-index:1;"></div>
+        <div data-object="true" data-object-type="icon" style="position:absolute; left:108px; top:619px; width:26px; height:26px; color:#FCA5A5; font-size:22px; z-index:10;"><i class="fa-solid fa-triangle-exclamation"></i></div>
+        <div data-object="true" data-object-type="textbox" style="position:absolute; left:146px; top:611px; width:1030px; height:44px; z-index:10;">
+            <p style="margin:0; font-family:'Inter',sans-serif; font-weight:900; font-size:17px; color:#FFFFFF; line-height:1.3;">The risk is not moving too early — it's waiting while someone else captures the trust layer first.</p>
+            <p style="margin:6px 0 0 0; font-family:'Inter',sans-serif; font-weight:500; font-size:13px; color:rgba(255,255,255,0.72);">First-mover in trust and safety intelligence becomes the only platform renters and landlords will default to.</p>
         </div>
-        <!-- Card 1 icon -->
-        <div data-object="true" data-object-type="icon"
-            style="position:absolute; left:124px; top:316px; width:44px; height:44px; z-index:10;">
-            <i class="fa-solid fa-wand-magic-sparkles" style="font-size:36px; color:#A78BFA;"></i>
+
+        <!-- Footer -->
+        <div data-object="true" data-object-type="shape" style="position:absolute; left:0px; top:678px; width:1280px; height:42px; background:rgba(255,255,255,0.03); border-top:1px solid rgba(255,255,255,0.08); z-index:1;"></div>
+        <div data-object="true" data-object-type="textbox" style="position:absolute; left:80px; top:690px; width:520px; height:24px; z-index:10;">
+            <p style="margin:0; font-family:'Inter',sans-serif; font-weight:500; font-size:12px; color:rgba(255,255,255,0.65); letter-spacing:0.4px;">Rentakoto • Investor Pitch Deck</p>
         </div>
-        <!-- Card 1 text -->
-        <div data-object="true" data-object-type="textbox"
-            style="position:absolute; left:124px; top:376px; width:296px; height:160px; z-index:10;">
-            <p style="margin:0; font-size:20px; font-weight:800; color:#FFFFFF;">AI UX is becoming standard</p>
-            <p style="margin:12px 0 0 0; font-size:15px; line-height:1.6; color:#C9D3EA;">Natural-language search and
-                personalized recommendations are now baseline expectations across consumer apps.</p>
-        </div>
-        <!-- Card 2 icon -->
-        <div data-object="true" data-object-type="icon"
-            style="position:absolute; left:492px; top:316px; width:44px; height:44px; z-index:10;">
-            <i class="fa-solid fa-shield-halved" style="font-size:36px; color:#22C55E;"></i>
-        </div>
-        <!-- Card 2 text -->
-        <div data-object="true" data-object-type="textbox"
-            style="position:absolute; left:492px; top:376px; width:296px; height:160px; z-index:10;">
-            <p style="margin:0; font-size:20px; font-weight:800; color:#FFFFFF;">Trust is critical in marketplaces</p>
-            <p style="margin:12px 0 0 0; font-size:15px; line-height:1.6; color:#C9D3EA;">Safety, flood risk, and
-                neighborhood quality materially impact decisions — and transparency drives conversion.</p>
-        </div>
-        <!-- Card 3 icon -->
-        <div data-object="true" data-object-type="icon"
-            style="position:absolute; left:860px; top:316px; width:44px; height:44px; z-index:10;">
-            <i class="fa-solid fa-hourglass-half" style="font-size:36px; color:#F59E0B;"></i>
-        </div>
-        <!-- Card 3 text -->
-        <div data-object="true" data-object-type="textbox"
-            style="position:absolute; left:860px; top:376px; width:296px; height:160px; z-index:10;">
-            <p style="margin:0; font-size:20px; font-weight:800; color:#FFFFFF;">Real estate platforms are outdated</p>
-            <p style="margin:12px 0 0 0; font-size:15px; line-height:1.6; color:#C9D3EA;">Search is listing-first,
-                workflows are manual, and decision intelligence is missing — leaving a clear gap.</p>
-        </div>
-        <!-- Bottom conclusion bar -->
-        <div data-object="true" data-object-type="shape"
-            style="position:absolute; left:96px; top:580px; width:1088px; height:76px; background:#101A33; border:1px solid #1E2A4A; border-radius:14px; z-index:1;">
-        </div>
-        <div data-object="true" data-object-type="icon"
-            style="position:absolute; left:124px; top:602px; width:36px; height:36px; z-index:10;">
-            <i class="fa-solid fa-bolt" style="font-size:28px; color:#A78BFA;"></i>
-        </div>
-        <div data-object="true" data-object-type="textbox"
-            style="position:absolute; left:170px; top:593px; width:990px; height:54px; z-index:10;">
-            <p style="margin:0; font-size:18px; line-height:1.4; font-weight:700; color:#FFFFFF;">Timing = perfect for
-                disruption.</p>
-            <p style="margin:4px 0 0 0; font-size:14px; line-height:1.4; color:#C9D3EA;">Rentakoto brings intelligence +
-                trust + execution into a single rental decision platform.</p>
+        <div data-object="true" data-object-type="textbox" style="position:absolute; left:840px; top:690px; width:360px; height:24px; z-index:10;">
+            <p style="margin:0; font-family:'Inter',sans-serif; font-weight:500; font-size:12px; color:rgba(255,255,255,0.65); text-align:right; letter-spacing:0.4px;">Why Now</p>
         </div>
     </div>
     <script>
@@ -109,5 +96,5 @@
         });
     </script>
 </body>
-
 </html>
+

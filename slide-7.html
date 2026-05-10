@@ -204,62 +204,56 @@
         </div>
         <!-- Chart script -->
         <script>
-            const ctx = document.getElementById('gapChart');
-            const gapChart = new Chart(ctx, {
+        window.addEventListener('load', function() {
+            var ctx = document.getElementById('gapChart').getContext('2d');
+            new Chart(ctx, {
                 type: 'bar',
                 data: {
-                    labels: ['Outdated listings', 'Low transparency', 'No safety context', 'Manual coordination'],
-                    datasets: [{
-                        label: 'Pain intensity (illustrative)',
-                        data: [85, 78, 88, 82],
-                        backgroundColor: [
-                            'rgba(248,113,113,0.65)',
-                            'rgba(251,191,36,0.65)',
-                            'rgba(52,211,153,0.65)',
-                            'rgba(96,165,250,0.65)'
-                        ],
-                        borderColor: [
-                            'rgba(248,113,113,0.95)',
-                            'rgba(251,191,36,0.95)',
-                            'rgba(52,211,153,0.95)',
-                            'rgba(96,165,250,0.95)'
-                        ],
-                        borderWidth: 1.2,
-                        borderRadius: 10,
-                        barThickness: 32
-                    }]
+                    labels: ['Trust & Safety Data', 'Search Quality', 'Decision Support', 'End-to-End Flow', 'Landlord Tools'],
+                    datasets: [
+                        {
+                            label: 'Current Market',
+                            data: [18, 30, 12, 22, 20],
+                            backgroundColor: 'rgba(239,68,68,0.55)',
+                            borderColor: 'rgba(239,68,68,0.85)',
+                            borderWidth: 1.5,
+                            borderRadius: 6
+                        },
+                        {
+                            label: 'Rentakoto Target',
+                            data: [90, 88, 92, 85, 87],
+                            backgroundColor: 'rgba(109,40,217,0.55)',
+                            borderColor: 'rgba(167,139,250,0.85)',
+                            borderWidth: 1.5,
+                            borderRadius: 6
+                        }
+                    ]
                 },
                 options: {
                     responsive: false,
-                    maintainAspectRatio: false,
                     plugins: {
-                        legend: { display: false },
-                        tooltip: {
-                            enabled: true,
-                            backgroundColor: 'rgba(18,18,38,0.95)',
-                            titleColor: '#FFFFFF',
-                            bodyColor: 'rgba(255,255,255,0.82)',
-                            borderColor: 'rgba(255,255,255,0.10)',
-                            borderWidth: 1
-                        }
+                        legend: {
+                            position: 'top',
+                            labels: { color: 'rgba(255,255,255,0.75)', font: { family: 'Inter', size: 11 }, boxWidth: 12 }
+                        },
+                        tooltip: { enabled: true }
                     },
                     scales: {
                         x: {
-                            ticks: { color: 'rgba(255,255,255,0.75)', font: { family: 'Inter', size: 11, weight: '600' } },
-                            grid: { display: false }
+                            ticks: { color: 'rgba(255,255,255,0.65)', font: { family: 'Inter', size: 11 } },
+                            grid: { color: 'rgba(255,255,255,0.06)' }
                         },
                         y: {
-                            beginAtZero: true,
-                            max: 100,
-                            ticks: { color: 'rgba(255,255,255,0.55)', font: { family: 'Inter', size: 11, weight: '600' }, stepSize: 25 },
-                            grid: { color: 'rgba(255,255,255,0.08)' }
+                            min: 0, max: 100,
+                            ticks: { color: 'rgba(255,255,255,0.55)', font: { family: 'Inter', size: 10 }, stepSize: 25 },
+                            grid: { color: 'rgba(255,255,255,0.06)' }
                         }
                     }
                 }
             });
+        });
         </script>
-    </div>
-    <script>
+        <script>
         document.addEventListener('keydown', function(e) {
             if (e.key === 'ArrowRight') {
                 window.location.href = 'slide-8.html';
