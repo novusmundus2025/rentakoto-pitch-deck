@@ -255,3 +255,7 @@ Each slide is a standalone HTML file using:
 - **Icons:** Font Awesome 6.4
 - **Charts:** Chart.js (Slide 7)
 - **Dimensions:** 1280 × 720 px (16:9)
+
+## License
+
+Project-owned source code and documentation are licensed under [Apache License 2.0](LICENSE). Third-party components, data, and assets retain their own licenses and notices.
